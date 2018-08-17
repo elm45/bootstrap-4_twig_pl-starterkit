@@ -3,7 +3,7 @@
 
 # Bootstrap 4 Starter Kit for Pattern Twig Edition
 
-**IMPORTANT!!** This is a very alpha work-in-progress that is in no way ready for production projects.
+**IMPORTANT!!** This is a very alpha work-in-progress that is in no way ready for production projects. THAT INCLUDES THIS README DOCUMENT.
 
 ## Packaged Components
 
