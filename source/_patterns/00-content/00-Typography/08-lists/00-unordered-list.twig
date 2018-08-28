@@ -1,0 +1,9 @@
+<ul {% if ul_modifiers %} class="{{ ul_modifiers }}" {% endif %}>
+  {% block list_content %}
+    {% for ul_item in ul_items %}
+      {% include "_list-item.twig" with {
+        "list_item_content": ul_item.content,
+      } %}
+    {% endfor %}
+  {% endblock %}
+</ul>

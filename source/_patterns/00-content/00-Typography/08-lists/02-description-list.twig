@@ -1,0 +1,8 @@
+<dl {% if dl_modifiers %} class="{{ dl_modifiers }}" {% endif %}>
+  {% for dl_item in dl_items %}
+    {% include "_list-item-definition.twig" with {
+      "dl_term": dl_item.dl_term,
+      "dl_def": dl_item.dl_def,
+    } %}
+  {% endfor %}
+</dl>

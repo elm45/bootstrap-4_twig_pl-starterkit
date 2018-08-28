@@ -1,0 +1,10 @@
+<ol>
+  {% block list_content %}
+    {% for ol_item in ol_items %}
+      {% include "_list-item.twig" with {
+        "list_item_content": ol_item.content,
+      } %}
+    {% endfor %}
+  {% endblock %}
+</ol>
+ 
