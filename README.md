@@ -1,7 +1,7 @@
 ![license](https://img.shields.io/github/license/pattern-lab/edition-php-twig-standard.svg)
 [![Packagist](https://img.shields.io/packagist/v/pattern-lab/edition-twig-standard.svg)](https://packagist.org/packages/pattern-lab/edition-mustache-webdesignday) [![Gitter](https://img.shields.io/gitter/room/pattern-lab/php.svg)](https://gitter.im/pattern-lab/php)
 
-# Bootstrap 4 Starter Kit for Pattern Twig Edition
+# Bootstrap 4 Starter Kit for Pattern Lab Twig Edition
 
 **IMPORTANT!!** This is a very alpha work-in-progress that is in no way ready for production projects. THAT INCLUDES THIS README DOCUMENT.
 
