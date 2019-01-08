@@ -1,0 +1,5 @@
+buttons:
+  - title: "Top"
+  - title: "Middle"
+  - title: "bottom"
+modifier_class: btn-group-vertical
