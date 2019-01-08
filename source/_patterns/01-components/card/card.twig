@@ -1,0 +1,18 @@
+{% set base_class = 'card' %}
+
+<div class="{{ base_class }}" style="width: 18rem;">
+  {% if card.image %}
+    <img class="card-img-top" src="{{ card.image.src }}" alt="{{ card.image.alt }}">
+  {% endif %}
+  <div class="card-body">
+    {% if card.title %}
+      <h5 class="card-title">{{ card.title }}</h5>
+    {% endif %}
+    {% if card.content %}
+      {{ card.content }}
+    {% endif %}
+    {% if card.button %}
+      <a href="{{ card.button.url }}" class="btn btn-primary">{{ card.button.title }}</a>
+    {% endif %}
+  </div>
+</div>
