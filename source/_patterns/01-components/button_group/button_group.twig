@@ -1,0 +1,6 @@
+{% set base_class = "btn-group" %}
+<div class="{{ base_class }} {{ modifier_class }}" role="group" aria-label="Basic example">
+{% for button in buttons %}
+  <button type="button" class="btn btn-primary">{{ button.title }}</button>
+{% endfor %}
+</div>
