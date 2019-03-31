@@ -1,0 +1,18 @@
+modifier_classes:
+list_group:
+- content: item 1
+  classes: [list-group-item-primary]
+- content: item 2
+  classes: [list-group-item-secondary]
+- content: item 3
+  classes: [list-group-item-success]
+- content: item 4
+  classes: [list-group-item-danger]
+- content: item 5
+  classes: [list-group-item-warning]
+- content: item 6
+  classes: [list-group-item-info]
+- content: item 7
+  classes: [list-group-item-light]
+- content: item 8
+  classes: [list-group-item-dark]

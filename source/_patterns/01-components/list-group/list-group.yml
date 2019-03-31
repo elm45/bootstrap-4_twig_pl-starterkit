@@ -1,0 +1,8 @@
+list_group:
+- content: item 1 (active)
+  classes: ['active']
+- content: item 2
+- content: item 3
+- content: item 4
+- content: item 5 (disabled)
+  classes: ['disabled']
