@@ -1,0 +1,21 @@
+collapsibles:
+- id: 'collapseOne'
+  heading_id: 'headingOne'
+  title: 'Accordion Item 1'
+  content: 'Accordion Body 1: Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.'
+  additional_class: 'show'
+- id: 'collapseTwo'
+  heading_id: 'headingTwo'
+  title: 'Accordion Item 2'
+  content: 'Accordion Body 2: Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.'
+  collapsed: TRUE
+- id: 'collapseThree'
+  heading_id: 'headingThree'
+  title: 'Accordion Item 3'
+  content: 'Accordion Body 3: Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.'
+  collapsed: TRUE
+- id: 'collapseFour'
+  heading_id: 'headingFour'
+  title: 'Accordion Item 4'
+  content: 'Accordion Body 4: Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.'
+  collapsed: TRUE

@@ -1,0 +1,20 @@
+<div id="accordion">
+  {% for collapse in collapsibles %}
+  <div class="card">
+    <div class="card-header" id="{{ collapse.heading_id }}">
+      <h5 class="mb-0">
+        {% set button_classes = [
+          'btn',
+          'btn-link',
+          collapse.collapsed ? 'collapsed',
+        ] %}
+        {% set aria_expanded = collapse.collapsed ? 'false' : 'true' %}
+        <button class="{{ button_classes|join(' ') }}" data-toggle="collapse" data-target="#{{ collapse.id }}" aria-expanded="{{ aria_expanded }}" aria-controls="{{ collapse.id }}">
+          {{ collapse.title }}
+        </button>
+      </h5>
+    </div>
+    {% include '_collapse-item.twig' %}
+  </div>
+  {% endfor %}
+</div>
