@@ -1,0 +1,13 @@
+<div class="jumbotron">
+  {{ title }}
+  {{ lead }}
+  {% if hr %}<hr class="my-4">{% endif %}
+    {{ content }}
+  {% if cta %}
+    <p class="lead">
+      <a class="btn btn-primary btn-lg" href="{{ cta.href }}" role="button">
+        {{ cta.title }}
+      </a>
+    </p>
+  {% endif %}
+</div>
