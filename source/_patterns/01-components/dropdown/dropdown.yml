@@ -1,0 +1,9 @@
+dropdown:
+  id: 'dropdownMenuButton'
+  title: 'Dropdown example'
+  menu:
+    0: 'Item one'
+    1: 'Item two'
+    2: 'Item three'
+    3: 'dropdown_divider'
+    4: 'Item 4'

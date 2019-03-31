@@ -1,0 +1,9 @@
+  <div class="dropdown-menu" aria-labelledby="{{ dropdown.id }}">
+    {% for item in dropdown.menu %}
+      {% if item == 'dropdown_divider' %}
+        <div class="dropdown-divider"></div>
+      {% else %}
+        <a class="dropdown-item" href="#">{{ item }}</a>
+      {% endif %}
+    {% endfor %}
+  </div>
