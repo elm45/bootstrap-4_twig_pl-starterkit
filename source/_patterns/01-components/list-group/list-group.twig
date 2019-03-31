@@ -11,7 +11,6 @@
     {% set list_item_classes = ['list-group-item'] %}
     {% if item.classes %}
       {% set list_item_classes = list_item_classes|merge(item.classes) %}
-    {% else %}
     {% endif %}
     <li class="{{ list_item_classes|join(' ') }}">{{ item.content }}</li>
   {% endfor %}
