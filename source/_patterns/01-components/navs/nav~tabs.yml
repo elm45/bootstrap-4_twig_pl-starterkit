@@ -1,0 +1,17 @@
+nav:
+- content: item 1 (active)
+  href: '#'
+  link_classes: ['active']
+- content: item 2
+  href: '#'
+  link_classes:
+- content: item 3
+  href: '#'
+  link_classes:
+- content: item 4
+  href: '#'
+  link_classes:
+- content: item 5 (disabled)
+  href: '#'
+  link_classes: ['disabled']
+modifier_classes: ['nav-tabs']

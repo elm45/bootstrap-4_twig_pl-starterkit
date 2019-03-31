@@ -1,0 +1,21 @@
+{% set base_class = 'nav' %}
+{% if modifier_classes %}
+  {% set classes  = [base_class]|merge(modifier_classes) %}
+  {% set classes  = classes|join(' ') %}
+{% else %}
+  {% set classes = base_class %}
+{% endif %}
+
+<ul class="{{ classes }}">
+  {% for item in nav %}
+    {% set link_item_classes = ['nav-link'] %}
+    {% if item.link_classes %}
+      {% set link_item_classes = link_item_classes|merge(item.link_classes) %}
+    {% endif %}
+    <li class="nav-item">
+      <a href="{{ item.href }}" class="{{ link_item_classes|join(' ') }}">
+        {{ item.content }}
+      </a>
+    </li>
+  {% endfor %}
+</ul>
