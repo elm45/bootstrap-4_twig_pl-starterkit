@@ -1,0 +1,10 @@
+field_id: demotext
+name: demotext
+wrapper: form-group
+label: Text input demo
+label_class:
+type: text
+value:
+placeholder: Enter text here
+base_class: form-control
+modifier_class:

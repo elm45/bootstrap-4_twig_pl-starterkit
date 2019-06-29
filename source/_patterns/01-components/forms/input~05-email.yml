@@ -1,0 +1,10 @@
+field_id: demoemail
+name: demoemail
+wrapper: form-group
+label: Email input demo
+label_class:
+type: email
+value:
+placeholder: name@example.com
+base_class: form-control
+modifier_class:

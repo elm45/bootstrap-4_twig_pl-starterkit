@@ -1,0 +1,13 @@
+field_id: demotel
+name: demotel
+wrapper: form-inline
+label: Tel input demo
+label_class: mr-2
+type: tel
+value: 123-456-7890
+placeholder:
+min:
+max:
+pattern: '[0-9]{3}-[0-9]{3}-[0-9]{4}'
+base_class: form-control
+modifier_class:

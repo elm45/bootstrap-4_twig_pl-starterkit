@@ -1,0 +1,12 @@
+field_id: demofile
+name: demofile
+wrapper: form-group
+label: File upload demo
+label_class:
+type: file
+value: 
+placeholder:
+min: 
+max: 
+base_class: form-control
+modifier_class:

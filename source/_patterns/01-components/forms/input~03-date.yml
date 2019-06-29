@@ -1,0 +1,12 @@
+field_id: demodate
+name: demodate
+wrapper: form-inline
+label: Date input demo
+label_class: mr-2
+type: date
+value: 2019-05-19
+placeholder:
+min: 2019-01-01
+max: 2019-12-31
+base_class: form-control
+modifier_class:

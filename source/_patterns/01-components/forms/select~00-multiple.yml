@@ -1,0 +1,20 @@
+field_id: demomultiselect
+wrapper: form-inline
+label: Select multiple demo
+label_class: mr-2
+multiple: TRUE
+size: 4
+options:
+  0:
+    text: Choose...
+    selected: TRUE
+  1:
+    value: 1
+    text: ONE
+  2:
+    value: 2
+    text: TWO
+  3:
+    value: 3
+    text: THREE
+ 

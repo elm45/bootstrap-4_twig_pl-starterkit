@@ -1,0 +1,12 @@
+field_id: demomonth
+name: demomonth
+wrapper: form-group
+label: Month input demo
+label_class:
+type: month
+value: 
+placeholder:
+min: 
+max: 
+base_class: form-control
+modifier_class:

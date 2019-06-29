@@ -1,0 +1,22 @@
+{% if wrapper %}
+<div class="{{ wrapper }}">
+{% endif %}
+  {% if label and type not in ['checkbox', 'radio'] %}
+    <label for="{{ field_id }}" {% if label_class %}class="{{ label_class }}"{% endif %}>{{ label }}</label>
+  {% endif %}
+  <input class="{{ base_class }} {{ modifier_class }}"
+        {% if type %}type="{{ type }}"{% endif %}
+        {% if field_id %}id="{{ field_id }}"{% endif %}
+        {% if name %}name="{{ name }}"{% endif %}
+        {% if placeholder %}placeholder="{{ placeholder }}"{% endif %}
+        {% if value %}value="{{ value }}"{% endif %}
+        {% if size %}size="{{ size }}"{% endif %}
+        {% if q %}q="{{ q }}"{% endif %}
+        {% if pattern %}pattern="{{ pattern }}"{% endif %}
+  >
+  {% if label and type in ['checkbox', 'radio'] %}
+    <label for="{{ field_id }}" {% if label_class %}class="{{ label_class }}"{% endif %}>{{ label }}</label>
+  {% endif %}
+{% if wrapper %}
+</div>
+{% endif %}

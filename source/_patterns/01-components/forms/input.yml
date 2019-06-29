@@ -1,0 +1,10 @@
+field_id: demo
+name: demo
+wrapper: form-group
+label: Input demo
+label_class:
+type: text
+value:
+placeholder: Demo input field
+base_class: form-control
+modifier_class:

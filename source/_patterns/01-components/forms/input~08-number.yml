@@ -1,0 +1,12 @@
+field_id: demonumber
+name: demonumber
+wrapper: form-inline
+label: Number input demo
+label_class: mr-2
+type: number
+value: 50
+placeholder:
+min: 10
+max: 100
+base_class: form-control
+modifier_class:

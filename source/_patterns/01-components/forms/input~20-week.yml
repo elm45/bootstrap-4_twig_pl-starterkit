@@ -1,0 +1,14 @@
+field_id: demoweek
+name: demoweek
+wrapper: form-inline
+label: Week input demo
+label_class: mr-2
+type: week
+value: 2018-W30
+placeholder:
+pattern:
+size:
+min: 2018-W18
+max: 2019-W26
+base_class: form-control
+modifier_class:

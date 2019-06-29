@@ -1,0 +1,12 @@
+field_id: demodatetime
+name: demodatetime
+wrapper: form-group
+label: Datetime local input demo
+label_class: mr-2
+type: datetime-local
+value: 2018-06-12T19:30
+placeholder:
+min: 2018-06-07T00:00
+max: 2020-06-14T00:00
+base_class: form-control
+modifier_class:

@@ -1,0 +1,20 @@
+{% if wrapper %}
+<div class="{{ wrapper }}">
+{% endif %}
+{% if label %}
+  <label for="{{ field_id }}" {% if label_class %}class="{{ label_class }}"{% endif %}>{{ label }}</label>
+{% endif %}
+<textarea 
+  class="form-control"
+  {% if field_id %}id="{{ field_id }}"{% endif %}
+  {% if name %}name="{{ name }}"{% endif %}
+  {% if placeholder %}placeholder="{{ placeholder }}"{% endif %}
+  {% if rows %}rows="{{ rows }}"{% endif %}
+  {% if cols %}cols="{{ cols }}"{% endif %}
+  {% if minlength %}minlength="{{ minlength }}"{% endif %}
+  {% if maxlength %}maxlength="{{ maxlength }}"{% endif %}
+>
+</textarea>
+{% if wrapper %}
+</div>
+{% endif %}

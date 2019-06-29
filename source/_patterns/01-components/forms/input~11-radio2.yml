@@ -1,0 +1,12 @@
+field_id: demoradio
+name: demoradio
+wrapper: form-inline
+label: 'False'
+label_class: ml-2
+type: radio
+value: false
+placeholder:
+min:
+max:
+base_class: form-control
+modifier_class:
