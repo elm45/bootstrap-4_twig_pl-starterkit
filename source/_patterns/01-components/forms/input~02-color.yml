@@ -1,0 +1,10 @@
+field_id: democolor
+name: democolor
+wrapper: form-group
+label: Color input demo
+label_class:
+type: color
+value: '#ffffff'
+placeholder: name@example.com
+base_class:
+modifier_class:

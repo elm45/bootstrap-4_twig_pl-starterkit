@@ -1,0 +1,12 @@
+field_id: demotime
+name: demotime
+wrapper: form-group
+label: Time input demo
+label_class:
+type: time
+value:
+placeholder:
+min: 9:00
+max: 18:00
+base_class: form-control
+modifier_class:

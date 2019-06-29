@@ -1,0 +1,12 @@
+field_id: demosubmit
+name: demosubmit
+wrapper: form-inline
+label: Submit input demo
+label_class: mr-2
+type: submit
+value: Submit
+placeholder:
+min:
+max:
+base_class: form-control
+modifier_class: btn btn-primary

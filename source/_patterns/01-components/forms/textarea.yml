@@ -1,0 +1,10 @@
+field_id: demotextarea
+name: demotextarea
+wrapper: form-group
+label: Textarea demo
+label_class:
+rows: 10
+cols: 30
+minlength: 10
+maxlength: 100
+placeholder: Add some text

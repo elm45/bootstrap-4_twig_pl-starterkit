@@ -1,0 +1,13 @@
+field_id: demosearch
+name: demosearch
+wrapper: form-group
+label: Search input demo
+label_class:
+type: search
+value:
+placeholder:
+min:
+max:
+q: googlesearch
+base_class: form-control
+modifier_class:

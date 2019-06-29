@@ -1,0 +1,24 @@
+{% if wrapper %}
+  <div class="{{ wrapper }}">
+{% endif %}
+  {% if label %}
+    <label class="{{ label_class }}" for="i{{ field_id }}">{{ label }}</label>
+  {% endif %}
+  <select
+    class="custom-select" 
+    id="{{ field_id }}" 
+    {% if size %}size="{{ size }}" {% endif %}
+    {% if multiple %}{{ multiple }}{% endif %}
+    >
+    {% for option in options %}
+      <option 
+        {% if option.selected %}selected {% endif %}
+        {% if option.value %}value="{{ option.value }}"{% endif %}
+      >
+        {{ option.text }}
+      </option>
+    {% endfor %}
+  </select>
+{% if wrapper %}
+  </div>
+{% endif %}

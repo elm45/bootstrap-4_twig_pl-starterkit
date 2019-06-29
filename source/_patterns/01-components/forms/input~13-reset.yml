@@ -1,0 +1,12 @@
+field_id: demoreset
+name: demoreset
+wrapper: form-inline
+label: Reset input demo
+label_class: mr-2
+type: reset
+value:
+placeholder:
+min:
+max:
+base_class: form-control
+modifier_class: btn btn-primary

@@ -1,0 +1,10 @@
+field_id: democheck
+name: democheck
+wrapper: form-check
+label: Checkbox input demo
+label_class: form-check-label
+type: checkbox
+value: 
+placeholder:
+base_class: form-check-input
+modifier_class:

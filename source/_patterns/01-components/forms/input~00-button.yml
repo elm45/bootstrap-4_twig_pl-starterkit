@@ -1,0 +1,10 @@
+field_id: demobutton
+name: demobutton
+wrapper: form-group
+label:
+label_class:
+type: button
+value: Button input
+placeholder:
+base_class: btn
+modifier_class: btn-primary
